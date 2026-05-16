@@ -1,1 +1,252 @@
-#test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Back in the Press: News of the Old Times</title>
+    <style>
+        /* Classic 2000s solid deep slate/blue background */
+        body {
+            background-color: #1e2936;
+            font-family: "Courier New", Courier, monospace;
+            color: #000000;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Fixed-width wrapper - stays centered, matching original layout */
+        #container {
+            width: 680px;
+            margin: 0 auto;
+            background-color: #e6ecf5;
+            border: 3px double #002244;
+            /* Hard, retro pixelated drop shadow */
+            box-shadow: 12px 12px 0px #090d12;
+            padding: 10px;
+        }
+
+        /* Deep blue newsroom banner header */
+        header {
+            background: linear-gradient(to bottom, #004488, #001133);
+            color: #ffffff;
+            text-align: center;
+            padding: 18px;
+            border: 2px inset #ffffff;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 26px;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px #000000;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 11px;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+
+        /* News Ticker */
+        .ticker {
+            background-color: #000000;
+            color: #00ff44;
+            font-family: monospace;
+            padding: 4px;
+            font-size: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #666;
+        }
+
+        /* 2-Column Retro Layout */
+        #main-content {
+            display: table;
+            width: 100%;
+        }
+
+        /* Left Navigation Bar - Cleaned up but true to style */
+        nav {
+            display: table-cell;
+            width: 160px;
+            vertical-align: top;
+            background-color: #cbd7e7;
+            border: 2px outset #ffffff;
+            padding: 10px;
+        }
+
+        nav h3 {
+            font-size: 12px;
+            background-color: #002244;
+            color: white;
+            margin: -10px -10px 10px -10px;
+            padding: 5px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        nav a {
+            color: #0022aa;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            background-color: #004488;
+            text-decoration: none;
+        }
+
+        /* Right News Feed Area */
+        main {
+            display: table-cell;
+            vertical-align: top;
+            padding-left: 15px;
+        }
+
+        /* Article Card Structure */
+        .news-box {
+            background-color: #ffffff;
+            border: 1px solid #667788;
+            padding: 12px;
+            margin-bottom: 15px;
+            box-shadow: 4px 4px 0px #99aabb;
+        }
+
+        .news-box h2 {
+            font-size: 15px;
+            color: #002244;
+            margin: 0 0 4px 0;
+        }
+
+        .article-date {
+            font-size: 11px;
+            color: #666666;
+            font-style: italic;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .news-box p {
+            font-size: 13px;
+            line-height: 1.4;
+            margin: 8px 0;
+        }
+
+        /* Highlighted Editorial/Breaking box */
+        .editorial-note {
+            background-color: #fff9e6;
+            border-left: 4px solid #ffcc00;
+            padding: 6px 10px;
+            font-size: 11px;
+            margin: 10px 0;
+            color: #332200;
+        }
+
+        /* Footer Counter Frame */
+        footer {
+            margin-top: 10px;
+            background-color: #002244;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            font-size: 11px;
+            border: 2px inset #ffffff;
+        }
+
+        .hit-counter {
+            background-color: #000000;
+            color: #00ffcc;
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            padding: 2px 6px;
+            border: 1px solid #444;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+
+    <!-- Newsroom Header -->
+    <header>
+        <h1>Back in The Press</h1>
+        <p>Fake articles and stories // Feel the history from the 2000s</p>
+    </header>
+
+    <!-- News Ticker -->
+    <div class="ticker">
+        <marquee scrollamount="3" behavior="scroll" direction="left">
+            This website's purpose is to bring back the news from 2000s // It is under construction
+        </marquee>
+    </div>
+
+    <!-- Main Content Frame -->
+    <div id="main-content">
+        
+        <!-- Sidebar Navigation -->
+        <nav>
+            <h3>Go-to's</h3>
+            <ul>
+                <li><a href="#">Hottest News</a></li>
+                <li><a href="#">The Age of Connectivity</a></li>
+                <li><a href="#">Submit an Article</a></li>
+                <li><a href="#">Rate Us</a></li>
+            </ul>
+            <br>
+            <center></center>
+</nav>
+        <!-- Main News Wire -->
+        <main>
+            
+            <!-- ARTICLE TEMPLATE START -->
+            <div class="news-box">
+                <h2>Minecraft Java Edition 1.0 Officially Releases - A Great Sandbox Adventure</h2>
+                <span class="article-date">FILED: November 18, 2011 // BY: Anonymous</span>
+                <p>The first official edition was released by Mojang Studios today! Users describe the experience well. The game includes the core building, combat, and so much more!</p>
+                <div class="editorial-note">
+                    <strong>EDITOR'S NOTE:</strong><br>
+                    Minecraft was a huge success! It features such a creative and complex environment.
+                </div>
+                <p>Will you be playing Minecraft soon? Let us know!</p>
+            </div>
+            <!-- ARTICLE TEMPLATE END -->
+
+            <div class="news-box">
+                <h2>Microsoft Releases Windows 7 - First Impressions</h2>
+                <span class="article-date">FILED: October 22, 2009 // BY: Anonymous</span>
+                <p>The tech giant Microsoft released Windows 7 to the public today! It features a new and improved aero style, and much more!</p>
+            </div>
+
+            <div class="news-box">
+                <h2>Spider-Man 3 Hits Theaters!</h2>
+                <span class="article-date">FILED: May 04, 2007 // BY: Anonymous</span>
+                <p>The third addition to the Sam Raimi trilogy releases this Friday. The movie includes tense relationships, heroism, revenge, forgiveness, and villain thrill. It is movie that adds to the series in unique ways, but is it worth your watch?</p>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Retro Footer -->
+    <footer>
+        <p>Back in the Press: News of the Old Times. Developed using AI</p>
+        <p>Total Articles: <span class="hit-counter">3</span></p>
+    </footer>
+
+</div>
+
+</body>
+</html>
